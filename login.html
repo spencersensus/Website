@@ -6,41 +6,52 @@
     <title></title>
 </head>
 <body>
-    <div class="header">
-        <div class="container">
-            <div class="logo">
-                <h1><a href="Home.html">MVC</a></h1>
-            </div>
-            <div class="nav">
-                <ul>
-                    <li><a href="Home.html">Home</a></li>
-                    <li><a href="ContactPage.html">About us</a></li>
-                    <li><a href="GalleryPage.html">Gallery</a></li>
-                    <li><a href="login.html">Login</a></li>
-                </ul>
+        <div class="Navbar">
+            <div class="HeaderText">
+                <div class="nav">
+                    <a href="Home.html" p class="topText">Matt Vetsch Construction</p>
+                    </a>
+                    <a href="Login.html" p class="NavElement">Sign in</p>
+                    </a>
+                    <a href="About.html" p class="NavElement">About Us</p>
+                    </a>
+                    <a href="ContactPage.html" p class="NavElement">Contact</p>
+                    </a>
+                    <a href="GalleryPage.html" p class="NavElement">Porfolio</p>
+                    </a>
+                </div>
+                <p class="bottomText">
+                    LLC
+                </p>
             </div>
         </div>
-    </div>
-    <form action="/action_page.php">
-  <div class="imgcontainer">
-    <img src="img_avatar2.png" alt="Avatar" class="avatar">
-  </div>
+    
+        <div class="AboutPicture">
+    
+        </div>
+        <h1>Sign Up</h1>
 
-  <div class="container">
-    <label><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
-
-    <label><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-
-    <button type="submit">Login</button>
-    <input type="checkbox" checked="checked"> Remember me
-  </div>
-
-  <div class="container" style="background-color:#f1f1f1">
-    <button type="button" class="cancelbtn">Cancel</button>
-    <span class="psw">Forgot <a href="#">password?</a></span>
-  </div>
-</form>
+        <form action="action_page.php" style="border:1px solid #ccc">
+                <div class="container">
+                  <hr>
+              
+                  <label for="email"><b>Email</b></label>
+                  <input type="text" placeholder="Enter Email" name="email" required>
+              
+                  <label for="psw"><b>Password</b></label>
+                  <input type="password" placeholder="Enter Password" name="psw" required>
+              
+                  <label for="psw-repeat"><b>Repeat Password</b></label>
+                  <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+              
+                  <label>
+                    <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                  </label>
+              
+                  <div class="clearfix">
+                    <button type="submit" class="signupbtn">Sign Up</button>
+                  </div>
+                </div>
+              </form>
 </body>
 </html>

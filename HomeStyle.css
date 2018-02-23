@@ -176,3 +176,27 @@ p{
     text-decoration: none;
     background-color:#9ACD32
   }
+  @media screen and (max-width: 1300px){
+    .HeaderText{
+      font-size:35px;
+    }
+    .NavElement{
+      font-size: 18px;
+    }
+    .bottomText{
+      font-size:35px;
+    }
+  }
+  
+  
+  @media screen and (max-width: 1000px){
+    .HeaderText{
+      font-size:25px;
+    }
+    .NavElement{
+      font-size: 15px;
+    }
+    .bottomText{
+      font-size:25px;
+    }
+  }

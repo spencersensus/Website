@@ -67,3 +67,28 @@ h1{
 .AboutContainer{
     padding:0 60px;
 }
+
+@media screen and (max-width: 1300px){
+    .HeaderText{
+      font-size:35px;
+    }
+    .NavElement{
+      font-size: 18px;
+    }
+    .bottomText{
+      font-size:35px;
+    }
+  }
+  
+  
+  @media screen and (max-width: 1000px){
+    .HeaderText{
+      font-size:25px;
+    }
+    .NavElement{
+      font-size: 15px;
+    }
+    .bottomText{
+      font-size:25px;
+    }
+  }
